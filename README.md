@@ -30,5 +30,5 @@ Search for new hardware on local network on port 2542 with the IP address mentio
 (NB. telnet usually is default in line mode.)
 
 # Pictures
-![setup example with EBAZ4205](/IMG/image1.png)
+![setup example with EBAZ4205](/IMG/Image1.png)
 ![working example of Vivado](/IMG/image2.jpg)
