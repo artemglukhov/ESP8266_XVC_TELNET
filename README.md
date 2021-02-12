@@ -5,6 +5,8 @@ Almost directly taken from [esp-xvcd](https://github.com/gtortone/esp-xvcd) so a
 
 Modified it to be able to connect staying on the local network instead of opening a new network in AP mode, and added a telnet server to read out the serial port, almost entirely from the [ESP8266WiFi Library Example](https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WiFi/examples/WiFiTelnetToSerial/WiFiTelnetToSerial.ino).
 
+This way it is possible to program and debug through the JTAG port an FPGA/SoC from Xilinx, and have a UART connected to the computer remotely, without the need of connecting many different cables.
+
 # PinOut
 
 |NAME | PIN|
@@ -26,3 +28,7 @@ Search for new hardware on local network on port 2542 with the IP address mentio
 ## Connect to Telnet
 (Linux, MacOS) Open the terminal and print `$ telnet 192.168.1.118 23`
 (NB. telnet usually is default in line mode.)
+
+# Pictures
+![setup example with EBAZ4205](/IMG/image1.png)
+![working example of Vivado](/IMG/image2.jpg)
